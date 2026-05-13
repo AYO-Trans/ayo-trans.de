@@ -401,146 +401,86 @@ footer {
   }
 }
 @media (max-width: 768px) {
-  header {
-    flex-direction: column;
-    gap: 20px;
-    padding: 20px;
+  body {
+    overflow-x: hidden;
   }
 
-  nav {
+  .header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    padding: 16px 18px;
+    min-height: auto;
+  }
+
+  .brand img {
+    height: 72px;
+    max-width: 180px;
+  }
+
+  .nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 14px;
+    gap: 10px 18px;
+    width: 100%;
   }
 
-  nav a {
-    margin: 0;
-    font-size: 14px;
+  .nav a {
+    font-size: 13px;
+    padding: 6px 0;
+    white-space: nowrap;
+  }
+
+  .language {
+    font-size: 16px;
+    justify-content: center;
   }
 
   .hero {
-    padding: 60px 24px;
+    grid-template-columns: 1fr;
+    padding: 42px 20px 46px;
     text-align: center;
+    min-height: auto;
   }
 
-  .hero h1 {
-    font-size: 38px;
-    line-height: 1.1;
-  }
-
-  .hero p {
-    font-size: 17px;
-  }
-
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  section {
-    padding: 55px 24px;
-  }
-
-  h2 {
-    font-size: 32px;
-  }
-
-  .card,
-  .contact-box {
-    width: 100%;
-  }
-}
-@media screen and (max-width: 768px) {
-
-  body {
-    overflow-x: hidden;
-  }
-
-  header {
-    padding: 20px;
-  }
-
-  nav {
-    display: flex;
-    flex-direction: column;
-    gap: 18px;
-    align-items: flex-start;
-  }
-
-  .hero h1 {
-    font-size: 42px !important;
-    line-height: 1.1;
-    word-break: break-word;
-  }
-
-  .hero p {
+  .gold-line {
     font-size: 18px;
-    line-height: 1.6;
   }
 
-  section {
-    padding-left: 20px;
-    padding-right: 20px;
+  h1 {
+    font-size: 42px;
+    line-height: 1.05;
+    word-break: normal;
   }
 
-  img {
-    max-width: 100%;
-    height: auto;
+  .hero-copy {
+    font-size: 17px;
+    line-height: 1.55;
   }
 
-  .container,
-  .hero,
-  .content {
+  .outline-btn {
     width: 100%;
-    overflow: hidden;
-    @media screen and (max-width: 768px) {
-
-  nav {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    gap: 12px;
-    padding: 10px 0;
-  }
-
-  nav a {
     font-size: 14px;
-    margin: 0;
-    white-space: nowrap;
+    padding: 14px 16px;
   }
 
-  .hero h1 {
-    font-size: 38px !important;
+  .hero-logo img {
+    width: 100%;
+    max-width: 360px;
   }
 
-  body {
-    overflow-x: hidden;
-  }
-}
-  }
-}
-@media screen and (max-width: 768px) {
-
-  nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 12px;
-    padding: 10px 0;
+  .values,
+  .cards,
+  .split,
+  .contact-card {
+    grid-template-columns: 1fr;
   }
 
-  nav a {
-    font-size: 14px;
-    margin: 0;
-    white-space: nowrap;
-  }
-
-  .hero h1 {
-    font-size: 38px !important;
-  }
-
-  body {
-    overflow-x: hidden;
+  .section {
+    padding: 58px 22px;
   }
 }
