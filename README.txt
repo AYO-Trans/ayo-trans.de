@@ -7,7 +7,7 @@ Enthalten:
 
 GitHub Pages:
 1. ZIP entpacken
-2. index.html, style.css und logo.png in dein GitHub-Repository hochladen
+2. index.html, style.css und LOGOT.png in dein GitHub-Repository hochladen
 3. Settings > Pages > Deploy from branch > main / root > Save
 
 Hinweis:
