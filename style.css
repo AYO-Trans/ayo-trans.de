@@ -520,3 +520,27 @@ footer {
 }
   }
 }
+@media screen and (max-width: 768px) {
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    padding: 10px 0;
+  }
+
+  nav a {
+    font-size: 14px;
+    margin: 0;
+    white-space: nowrap;
+  }
+
+  .hero h1 {
+    font-size: 38px !important;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+}
