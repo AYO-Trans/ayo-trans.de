@@ -10,7 +10,7 @@ GitHub Pages:
 2. index.html, style.css und LOGOT.png in dein GitHub-Repository hochladen
 3. Settings > Pages > Deploy from branch > main / root > Save
 
-Hinweis:
+
 Amtsgericht Hamburg 
 Handelsregisternummer HRB 199417
 Geschäftsführung: Hüseyin Okur 
