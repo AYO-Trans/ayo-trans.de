@@ -11,4 +11,7 @@ GitHub Pages:
 3. Settings > Pages > Deploy from branch > main / root > Save
 
 Hinweis:
-Im Impressum sollten später Registergericht, Handelsregisternummer, Geschäftsführung und USt-ID ergänzt werden.
+Amtsgericht Hamburg 
+Handelsregisternummer HRB 199417
+Geschäftsführung: Hüseyin Okur 
+USt-ID DE46 3809 736
